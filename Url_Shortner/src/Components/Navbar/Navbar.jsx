@@ -5,9 +5,7 @@ const Navbar = () => {
   return (
     <div id="navbar">
       <div className="logo">Url-Shortner</div>
-      <div className="login-button">
-        <button>Login</button>
-      </div>
+      
     </div>
   );
 };
