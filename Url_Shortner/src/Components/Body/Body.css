@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+/* Main content wrapper */
+#main-content {
+  padding: 40px 20px;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  gap: 40px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  border-radius: 12px;
+}
+/* Section spacing */
+.section {
+  display: grid;
+  gap: 20px;
+}
+
+/* Heading */
+.heading-section h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+
+/* URL input and button section */
+.input-section {
+  display: grid;
+  grid-template-columns: 3fr auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.url-box input {
+  padding: 12px 16px;
+  font-size: 1rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  border: 1px solid #666;
+}
+
+.url-box input::placeholder {
+  color: #ccc;
+}
+
+.button-box button {
+  padding: 12px 24px;
+  font-size: 1rem;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button-box button:hover {
+  background: linear-gradient(to right, #5e0bce, #1a63d0);
+}
+
+/* Image */
+.image-section {
+  display: grid;
+  justify-content: center;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* FAQ Table */
+.faq-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.faq-section td {
+  padding: 10px;
+  border-radius: 8px;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  border: 1px solid #5a5870;
+}
+
+/* FAQ dropdown */
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 0;
+  font-size: 1rem;
+  color: #fff;
+}
+
+details p {
+  margin: 8px 0 0 0;
+  padding-left: 10px;
+  color: #ccc;
+}
+
